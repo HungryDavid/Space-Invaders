@@ -161,7 +161,7 @@ def game_over(player, enemies, writer):
       over.goto(0, 0)
       over.color("white")
 
-      over.write("You Win", align="center", font=("Arial", 25, "normal"))
+      over.write("You Win!", align="center", font=("Arial", 25, "normal"))
       over.goto(0, -50)
       over.write(f"Final Score: {score}", align="center", font=("Arial", 13, "normal"))
 
