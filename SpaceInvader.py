@@ -172,8 +172,8 @@ def create_enemies(enemies):
   x_spacing = 70
   y_spacing = 50
 
-  for row in range(4):
-    for col in range(1):
+  for row in range(3):
+    for col in range(8):
         enemy = enemy_module() 
         x = x_start + col * x_spacing
         y = y_start - row * y_spacing
